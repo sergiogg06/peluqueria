@@ -22,4 +22,3 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-backendpelu/deploy/mysql-data/

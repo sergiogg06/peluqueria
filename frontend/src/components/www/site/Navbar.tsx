@@ -3,8 +3,9 @@ import { cn } from "@/lib/utils";
 
 const links = [
   { to: "/", label: "Inicio" },
+  { to: "/contacto", label: "Contacto" },
   { to: "/productos", label: "Productos" },
-  { to: "/tratamientos", label: "Tratamientos" },
+  // { to: "/tratamientos", label: "Tratamientos" },
 ];
 
 export default function Navbar() {

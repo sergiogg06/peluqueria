@@ -6,7 +6,7 @@ import {
 } from "@/components/ui/card";
 
 import { useEffect, useState } from "react";
-import { getProductos, Producto } from "../services/productoService";
+import { getProductos, Producto } from "@/services/productoService";
 
 function ProductoList() {
   const [productos, setProductos] = useState<Producto[]>([]);

@@ -1,15 +1,9 @@
-import React from "react";
-import Navbar from "./Navbar";
-import { BrowserRouter } from "react-router-dom";
-
+import Navbar from "./Navbar"
 
 export const Header = () => {
-  return (
-    <header>
-    <BrowserRouter>
-      <Navbar />
-      </BrowserRouter>
-    </header>
-  );
-};
+    return (
+        
+        <Navbar />
+    )
 
+}
