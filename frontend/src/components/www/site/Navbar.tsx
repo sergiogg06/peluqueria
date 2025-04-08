@@ -12,10 +12,10 @@ export default function Navbar() {
   const location = useLocation();
 
   return (
-    <nav className="bg-white shadow border-b sticky top-0 z-50">
+    <nav className="bg-purple-100 shadow border-b border-purple-200 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
         {/* Logo / Branding */}
-        <Link to="/" className="text-2xl font-bold text-teal-600 tracking-tight">
+        <Link to="/" className="text-2xl font-bold text-purple-700 tracking-tight">
           Peluquería
         </Link>
 
@@ -26,8 +26,8 @@ export default function Navbar() {
               key={link.to}
               to={link.to}
               className={cn(
-                "text-gray-700 hover:text-teal-600 transition-colors duration-200 text-sm font-medium",
-                location.pathname === link.to && "text-teal-700 font-semibold"
+                "text-purple-700 hover:text-purple-900 transition-colors duration-200 text-sm font-medium",
+                location.pathname === link.to && "font-semibold underline underline-offset-4"
               )}
             >
               {link.label}
